@@ -31,6 +31,6 @@
 # print(Laser_Cannon(A))
 import numpy as np
 
-mask = np.array([[True,True,False,False],[True,True,False,False],[True,True,False,False]])
+mask = np.array([[True,True,True,False],[True,True,False,False],[True,True,False,False]])
 a = np.where(mask)
 print(a)
